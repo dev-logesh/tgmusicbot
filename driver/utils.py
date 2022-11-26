@@ -1,5 +1,7 @@
 import asyncio
 
+from config import GROUP_SUPPORT , OWNER_NAME
+
 from driver.queues import QUEUE, clear_queue, get_queue, pop_an_item
 from driver.veez import bot, call_py
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
