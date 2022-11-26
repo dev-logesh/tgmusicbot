@@ -17,22 +17,10 @@ from pytgcalls.types.stream import StreamAudioEnded
 
 
 keyboard = InlineKeyboardMarkup(
-    [
         [
             InlineKeyboardButton(text="• Mᴇɴᴜ", callback_data="cbmenu"),
+            InlineKeyboardButton(text="🗑 ᴄʟᴏꜱᴇ", callback_data='cls'),
         ]
-    [
-      InlineKeyboardButton(
-        "❤️ ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
-      ),
-      InlineKeyboardButton(
-          "👑 ᴍʏ ᴋɪɴɢ", url=f"https://t.me/{OWNER_NAME}"
-        )
-    ],
-    [
-      InlineKeyboardButton(text="🗑 ᴄʟᴏꜱᴇ", callback_data='cls'),
-    ]         
-    ]
 )
 
 
