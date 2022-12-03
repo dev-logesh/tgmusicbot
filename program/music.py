@@ -10,7 +10,7 @@ from pytgcalls.types.input_stream import AudioPiped
 from pytgcalls.types.input_stream.quality import HighQualityAudio
 # repository stuff
 from program.utils.inline import stream_markup
-from driver.design.thumbnail import thumb
+from driver.design.thumbnail import play_thumb as thumb
 from driver.design.chatname import CHAT_TITLE
 from driver.filters import command, other_filters
 from driver.queues import QUEUE, add_to_queue
