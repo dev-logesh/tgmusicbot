@@ -17,12 +17,12 @@ def stream_markup(user_id):
       InlineKeyboardButton(text="⦿", callback_data=f'cbmute | {user_id}'),
       InlineKeyboardButton(text="⦾", callback_data=f'cbunmute | {user_id}'),
     ],
-    [
+   [
       InlineKeyboardButton(
-        "❤️ ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
+        "🦋 ʟᴏᴠᴇʟʏ 🦋", url="tg://settings"
       ),
       InlineKeyboardButton(
-          "👑 ᴍʏ ᴋɪɴɢ", url=f"https://t.me/{OWNER_NAME}"
+          "🦋 ʟᴏɢɪ 🦋", url=f"https://t.me/cl_me_logesh"
         )
     ],
     [
@@ -43,12 +43,12 @@ def menu_markup(user_id):
       InlineKeyboardButton(text="⦿", callback_data=f'cbmute | {user_id}'),
       InlineKeyboardButton(text="⦾", callback_data=f'cbunmute | {user_id}'),
     ],
-    [
+   [
       InlineKeyboardButton(
-        "❤️ ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
+        "🦋 ʟᴏᴠᴇʟʏ 🦋", url="tg://settings"
       ),
       InlineKeyboardButton(
-          "👑 ᴍʏ ᴋɪɴɢ", url=f"https://t.me/{OWNER_NAME}"
+          "🦋 ʟᴏɢɪ 🦋", url=f"https://t.me/cl_me_logesh"
         )
     ],
     [
