@@ -159,7 +159,7 @@ async def vplay(c: Client, m: Message):
                 await m.reply_photo(
                     photo=image,
                     reply_markup=InlineKeyboardMarkup(buttons),
-                    caption=f"💡 **ᴛʀᴀᴄᴋ ᴀᴅᴅᴇᴅ ᴛᴏ Qᴜᴇᴜᴇ »** `{pos}`\n\n🦚 **ɴᴀᴍᴇ:** [{songname}]({link}) | `ᴠɪᴅᴇᴏ`\n⏱️ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n 🦚 ᴊᴏɪɴ ɪɴ : @{GROUP_SUPPORT}",
+                    caption=f"💡 **ᴛʀᴀᴄᴋ ᴀᴅᴅᴇᴅ ᴛᴏ Qᴜᴇᴜᴇ »** `{pos}`\n\n🦚 **ɴᴀᴍᴇ:** [{songname}]({link}) | `ᴠɪᴅᴇᴏ`\n⏱️ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n ",
                 )
             else:
                 gcname = m.chat.title
@@ -191,7 +191,7 @@ async def vplay(c: Client, m: Message):
                 await m.reply_photo(
                     photo=image,
                     reply_markup=InlineKeyboardMarkup(buttons),
-                    caption=f"🦚 **ɴᴀᴍᴇ:** [{songname}]({link}) | `ᴠɪᴅᴇᴏ`\n⏱️ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n 🦚 ᴊᴏɪɴ ɪɴ : @{GROUP_SUPPORT}",
+                    caption=f"🦚 **ɴᴀᴍᴇ:** [{songname}]({link}) | `ᴠɪᴅᴇᴏ`\n⏱️ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n ",
                 )
         else:
             if len(m.command) < 2:
@@ -230,7 +230,7 @@ async def vplay(c: Client, m: Message):
                             await m.reply_photo(
                                 photo=image,
                                 reply_markup=InlineKeyboardMarkup(buttons),
-                                caption=f"💡 **Track added to queue »** `{pos}`\n\n🦚 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴠɪᴅᴇᴏ`\n⏱️ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n 🦚 ᴊᴏɪɴ ɪɴ : @{GROUP_SUPPORT}",
+                                caption=f"💡 **Track added to queue »** `{pos}`\n\n🦚 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴠɪᴅᴇᴏ`\n⏱️ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n ",
                             )
                         else:
                             try:
@@ -251,7 +251,7 @@ async def vplay(c: Client, m: Message):
                                 await m.reply_photo(
                                     photo=image,
                                     reply_markup=InlineKeyboardMarkup(buttons),
-                                    caption=f"🦚 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴠɪᴅᴇᴏ`\n⏱️ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n 🦚 ᴊᴏɪɴ ɪɴ : @{GROUP_SUPPORT}",
+                                    caption=f"🦚 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴠɪᴅᴇᴏ`\n⏱️ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n ",
                                 )
                             except Exception as ep:
                                 await loser.delete()
@@ -294,7 +294,7 @@ async def vplay(c: Client, m: Message):
                         await m.reply_photo(
                             photo=image,
                             reply_markup=InlineKeyboardMarkup(buttons),
-                            caption=f"💡 **Track added to queue »** `{pos}`\n\n🦚 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴠɪᴅᴇᴏ`\n⏱️ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n 🦚 ᴊᴏɪɴ ɪɴ : @{GROUP_SUPPORT}",
+                            caption=f"💡 **Track added to queue »** `{pos}`\n\n🦚 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴠɪᴅᴇᴏ`\n⏱️ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n ",
                         )
                     else:
                         try:
@@ -315,7 +315,7 @@ async def vplay(c: Client, m: Message):
                             await m.reply_photo(
                                 photo=image,
                                 reply_markup=InlineKeyboardMarkup(buttons),
-                                caption=f"🦚 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴠɪᴅᴇᴏ`\n⏱️ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n 🦚 ᴊᴏɪɴ ɪɴ : @{GROUP_SUPPORT}",
+                                caption=f"🦚 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴠɪᴅᴇᴏ`\n⏱️ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n ",
                             )
                         except Exception as ep:
                             await loser.delete()
@@ -426,7 +426,7 @@ async def vstream(c: Client, m: Message):
                 await m.reply_photo(
                     photo=f"{IMG_1}",
                     reply_markup=InlineKeyboardMarkup(buttons),
-                    caption=f"💡 **ᴛʀᴀᴄᴋ ᴀᴅᴅᴇᴅ ᴛᴏ Qᴜᴇᴜᴇ»** `{pos}`\n\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n 🦚 ᴊᴏɪɴ ɪɴ : @{GROUP_SUPPORT}",
+                    caption=f"💡 **ᴛʀᴀᴄᴋ ᴀᴅᴅᴇᴅ ᴛᴏ Qᴜᴇᴜᴇ»** `{pos}`\n\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n ",
                 )
             else:
                 if Q == 720:
@@ -455,7 +455,7 @@ async def vstream(c: Client, m: Message):
                     await m.reply_photo(
                         photo=f"{IMG_2}",
                         reply_markup=InlineKeyboardMarkup(buttons),
-                        caption=f"💡 **[ʟɪᴠᴇ ᴠɪᴅᴇᴏ]({link}) ꜱᴛʀᴇᴀᴍ ꜱᴛᴀʀᴛᴇᴅ.**\n\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n 🦚 ᴊᴏɪɴ ɪɴ : @{GROUP_SUPPORT}",
+                        caption=f"💡 **[ʟɪᴠᴇ ᴠɪᴅᴇᴏ]({link}) ꜱᴛʀᴇᴀᴍ ꜱᴛᴀʀᴛᴇᴅ.**\n\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n ",
                     )
                 except Exception as ep:
                     await loser.delete()

@@ -138,7 +138,7 @@ async def play(c: Client, m: Message):
                 await m.reply_photo(
                     photo=image,
                     reply_markup=InlineKeyboardMarkup(buttons),
-                    caption=f"💡 **Track added to queue »** `{pos}`\n\n🦚 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴠɪᴅᴇᴏ`\n⏱️ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n 🦚 ᴊᴏɪɴ ɪɴ : @{GROUP_SUPPORT}\n 🦚 ᴊᴏɪɴ ɪɴ : @{GROUP_SUPPORT}",
+                    caption=f"💡 **Track added to queue »** `{pos}`\n\n🦚 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴠɪᴅᴇᴏ`\n⏱️ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n \n ",
                 )
             else:
                 try:
@@ -166,7 +166,7 @@ async def play(c: Client, m: Message):
                     await m.reply_photo(
                         photo=image,
                         reply_markup=InlineKeyboardMarkup(buttons),
-                        caption=f"🗂 **ɴᴀᴍᴇ:** [{songname}]({link}) | `ᴍᴜꜱɪᴄ`\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n 🦚 ᴊᴏɪɴ ɪɴ : @{GROUP_SUPPORT}",
+                        caption=f"🗂 **ɴᴀᴍᴇ:** [{songname}]({link}) | `ᴍᴜꜱɪᴄ`\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n ",
                     )
                 except Exception as e:
                     await suhu.delete()
@@ -206,7 +206,7 @@ async def play(c: Client, m: Message):
                             await m.reply_photo(
                                 photo=image,
                                 reply_markup=InlineKeyboardMarkup(buttons),
-                                caption=f"💡 **ᴛʀᴀᴄᴋ ᴀᴅᴅᴇᴅ ᴛᴏ Qᴜᴇᴜᴇ »** `{pos}`\n\n🗂 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴍᴜꜱɪᴄ`\n**⏱ ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n 🦚 ᴊᴏɪɴ ɪɴ : @{GROUP_SUPPORT}",
+                                caption=f"💡 **ᴛʀᴀᴄᴋ ᴀᴅᴅᴇᴅ ᴛᴏ Qᴜᴇᴜᴇ »** `{pos}`\n\n🗂 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴍᴜꜱɪᴄ`\n**⏱ ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n ",
                             )
                         else:
                             try:
@@ -228,7 +228,7 @@ async def play(c: Client, m: Message):
                                 await m.reply_photo(
                                     photo=image,
                                     reply_markup=InlineKeyboardMarkup(buttons),
-                                    caption=f"🗂 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴍᴜꜱɪᴄ`\n**⏱ ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n 🦚 ᴊᴏɪɴ ɪɴ : @{GROUP_SUPPORT}",
+                                    caption=f"🗂 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴍᴜꜱɪᴄ`\n**⏱ ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n ",
                                 )
                             except Exception as ep:
                                 await suhu.delete()
@@ -267,7 +267,7 @@ async def play(c: Client, m: Message):
                         await m.reply_photo(
                             photo=image,
                             reply_markup=InlineKeyboardMarkup(buttons),
-                            caption=f"💡 **ᴛʀᴀᴄᴋ ᴀᴅᴅᴇᴅ ᴛᴏ Qᴜᴇᴜᴇ »** `{pos}`\n\n🗂 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴍᴜꜱɪᴄ`\n**⏱ ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n 🦚 ᴊᴏɪɴ ɪɴ : @{GROUP_SUPPORT}",
+                            caption=f"💡 **ᴛʀᴀᴄᴋ ᴀᴅᴅᴇᴅ ᴛᴏ Qᴜᴇᴜᴇ »** `{pos}`\n\n🗂 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴍᴜꜱɪᴄ`\n**⏱ ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n ",
                         )
                     else:
                         try:
@@ -287,7 +287,7 @@ async def play(c: Client, m: Message):
                             await m.reply_photo(
                                 photo=image,
                                 reply_markup=InlineKeyboardMarkup(buttons),
-                                caption=f"🗂 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴍᴜꜱɪᴄ`\n**⏱ ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n 🦚 ᴊᴏɪɴ ɪɴ : @{GROUP_SUPPORT}",
+                                caption=f"🗂 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴍᴜꜱɪᴄ`\n**⏱ ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ʀᴇQᴜᴇꜱᴛ ʙʏ:** {requester}\n ",
                             )
                         except Exception as ep:
                             await suhu.delete()
